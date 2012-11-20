@@ -6,6 +6,7 @@ This was written as an excersise and should not be considered good code, however
 PLUGIN DEPENDENCIES
 ============
 * rest-client gem - https://rubygems.org/gems/rest-client
+* a working knife-ec2 setup
 
 
 REQUIREMENTS
