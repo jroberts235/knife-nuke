@@ -61,6 +61,7 @@ module NukeIt
         #chef
         puts "Removing #{node} from chef server"
         `knife node delete #{node} -y` 
+        `knife client delete #{node} -y` 
 
       end
     end
